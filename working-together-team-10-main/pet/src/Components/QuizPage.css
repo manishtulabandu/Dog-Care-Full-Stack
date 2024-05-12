@@ -1,0 +1,168 @@
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .login-title {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .login-input {
+    padding: 10px;
+    margin: 10px 0;
+    font-size: 18px;
+    width: 300px;
+    border-radius: 5px;
+    border: 1px solid gray;
+  }
+  
+  .login-button {
+    padding: 10px 20px;
+    margin-top: 20px;
+    font-size: 18px;
+    background-color: lightblue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .formCheck{
+    background-color: rgba(239, 221, 127, 0.8);
+    border-radius: 5px;
+    border: 2px solid rgba(239, 221, 127, 0.8);
+  }
+  .formCheck:hover{
+    border: 2px solid rgb(32, 22, 0,1);
+    
+  }
+  .formCheckSelected{
+    border-radius: 5px;
+    border: 2px solid rgba(255, 211, 67, 0);
+    
+  }
+  .formCheckSelected:hover{
+    border-radius: 5px;
+    border: 2px solid rgb(32, 22, 0,0.5);
+    
+  }
+.auth-wrapper {
+  width: auto;
+    margin-left: 10%;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+
+}
+.buttons{
+    display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+.background-image {
+  background-image: url('../images/image-handsome-young-man-holding-black-pug-looking-confused-guy-shrugging-shoulders-stari.jpg');
+  background-size: cover;
+  background-position: center;
+  width: 100%; 
+  height: 100vh; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.auth-inner {
+  margin-top: -100px;
+  width:700px;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: rgba(255, 211, 67, 0.5); 
+  animation: moveLetters 2s infinite alternate;
+ height:auto
+
+}
+
+.auth-inner h3 {
+  text-align: center;
+  text-indent: left;
+  margin-bottom: 20px;
+}
+
+.auth-inner label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.auth-inner input[type="email"],
+.auth-inner input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ced4da;
+  border-radius: 5px;
+}
+
+.auth-inner .d-grid {
+  margin-top: 30px;
+}
+
+.auth-inner button {
+  width: 100%;
+  padding: 10px;
+  background-color: #a24c00;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.form-check-input:checked {
+    background-color: #a24c00;
+    border-color: #a24c00;
+}
+.auth-inner button:hover {
+  background-color: #201600;
+}
+
+.auth-inner .forgot-password {
+  text-align: right;
+  margin-top: 20px;
+}
+
+.auth-inner .forgot-password a {
+  color:#a24c00;
+}
+
+.auth-inner .buttonIn {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.auth-inner .buttonIn input[type="text"] {
+  width: 70%;
+  margin-right: 10px;
+}
+
+.auth-inner .buttonIn button {
+  width: 30%;
+}
+
+.auth-inner .modal-header {
+  border-bottom: none;
+}
+.quiz-finished{
+  display: flex;
+}
+.auth-inner .modal-title {
+  font-weight: bold;
+}
+
+.auth-in{
+    padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: rgba(255, 211, 67, 0.5); 
+  animation: moveLetters 2s infinite alternate;
+}

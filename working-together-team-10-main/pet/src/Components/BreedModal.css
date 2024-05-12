@@ -1,0 +1,30 @@
+.custom-model .modal-dialog{
+    max-width: 800px;
+    width: 90%;
+}
+.modal-header {
+    background-color: #a24c00;
+    color: white;
+  }
+  
+  .modal-title {
+    font-size: 1.5rem;
+  }
+  
+  .modal-content {
+    padding: 20px;
+  }
+  
+  .modal-section {
+    color: #a24c00;
+    margin-top: 20px;
+  }
+  
+  .modal-text {
+    margin-bottom: 10px;
+  }
+  
+  .modal-footer {
+    background-color: #f1f1f1;
+  }
+  

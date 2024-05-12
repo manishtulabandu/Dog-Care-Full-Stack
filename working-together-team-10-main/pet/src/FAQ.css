@@ -1,0 +1,29 @@
+.faq-container {
+    width: 100%;
+  }
+  
+  .faq-item {
+    border-bottom: 1px solid black;
+  }
+  
+  .faq-question {
+    display: flex;
+    align-items: center; /* Align items vertically */
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .faq-answer {
+    padding: 10px;
+    display: flex;
+  }
+  
+  .accordion-icon {
+    font-size: 20px;
+    margin-right: 10px; /* Add margin for spacing */
+  }
+  
+  .accordion-icon.active {
+    transform: rotate(180deg);
+  }
+  

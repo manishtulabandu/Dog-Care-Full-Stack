@@ -1,0 +1,157 @@
+
+.product-details-container {
+  display: flex;
+  margin: 20px;
+}
+.product-info {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.product-name {
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.product-description {
+  margin-bottom: 20px;
+  color: #666;
+}
+
+.product-price {
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.product-image-container {
+  flex: 0 0 40%;
+  margin-right: 20px;
+}
+
+.product-image {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.quantity-selector {
+  margin-bottom: 25px;
+  display: flex;
+}
+
+.quantity-selector label {
+  font-weight: bold;
+  margin-right: 10px;
+  color: #333;
+}
+
+.quantity-input {
+  padding: 8px 12px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 2rem;
+}
+
+.add-to-cart-btn {
+  background-color: #201600;
+  color: #fff;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.go-to-cart-btn:hover {
+  background-color: #a24c00;
+}
+
+.go-to-cart-btn {
+  background-color: green;
+  color: #fff;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.add-to-cart-btn:hover {
+  background-color: #a24c00;
+}
+
+.product-reviews {
+  flex: 1;
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.reviews-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.reviews-container {
+  max-height: 250px;
+  overflow-y: auto;
+  width: 800px;
+}
+
+.review {
+  margin-bottom: 10px;
+  padding: 10px;
+  background-color: #f9f9f9;
+  border-radius: 5px;
+}
+
+.review-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5px;
+}
+
+.review-username {
+  font-weight: bold;
+  color: #333;
+}
+
+.review-rating {
+  color: #ffc107;
+}
+
+.review-text {
+  color: #333;
+}
+
+.load-more-btn {
+  background-color: #201600;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: background-color 0.3s;
+}
+
+.load-more-btn:hover {
+  background-color: #a24c00;
+}
+
+/* Star Rating */
+.star {
+  color: #ddd;
+  font-size: 1.2rem;
+}
+
+.star.filled {
+  color: #ffc107;
+}

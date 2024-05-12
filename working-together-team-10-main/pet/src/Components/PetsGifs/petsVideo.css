@@ -1,0 +1,69 @@
+.youtube-modal-container {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .youtube-thumbnail {
+    cursor: pointer;
+  }
+  
+  .play-button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 5px solid white; 
+    outline: none;
+    
+  }
+  
+  .play-button::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 0;
+    height: 0;
+    border-top: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+    border-left: 25px solid white;
+  }
+  
+  .modal-transparent .modal-content {
+    background-color: rgba(255, 255, 255, 0); /* Transparent background */
+    border: none;
+    box-shadow: none;
+  }
+  
+  .embed-responsive {
+    position: relative;
+    display: block;
+    width: 100%;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  .embed-responsive::before {
+    display: block;
+    content: "";
+  }
+  
+  .embed-responsive .embed-responsive-item,
+  .embed-responsive embed,
+  .embed-responsive iframe,
+  .embed-responsive object,
+  .embed-responsive video {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+  }
+  

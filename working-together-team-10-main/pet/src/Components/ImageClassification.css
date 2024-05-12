@@ -1,0 +1,10 @@
+.bg-classification{
+    background-image: url('../images/cute-little-dog-impersonating-business-person.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 100%; 
+    height: 100vh; 
+    text-align: center;
+    align-items: center;
+    
+}

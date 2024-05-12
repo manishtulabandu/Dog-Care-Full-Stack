@@ -1,0 +1,87 @@
+.Logo-style {
+    width:3rem;
+}
+
+.logSign{
+    background-color: #a24c00;
+    position:absolute;
+    top: 13px;
+    right:0;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+.cart{
+    size: 1.5rem;
+    margin: 13px;
+    color: bisque;
+    
+}
+.cart:hover{
+    cursor: pointer;
+    color: #201600;
+    transform: scale(1.1);
+}
+
+.signup{
+    size: 1.5rem;
+    margin: 13px;
+    color: bisque;
+}
+.signup:hover{
+    cursor: pointer;
+    color: #201600;
+}
+
+.login:hover{
+    cursor: pointer;
+    color: #201600;
+}
+
+.login{
+    size: 1.5rem;
+    margin-top: 17px;
+    margin-right: 10px;
+    color: bisque;
+}
+
+
+
+.nav-link {
+  color: bisque;
+  text-decoration: none;
+  position: relative;
+  transition: color 0.3s ease-in-out;
+}
+
+.nav-link:hover {
+  color: bisque; 
+}
+
+.nav-link::before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: bisque;
+  visibility: hidden;
+  transform: scaleX(0);
+  transition: all 0.3s ease-in-out;
+}
+
+.nav-link:hover::before {
+  visibility: visible;
+  transform: scaleX(1);
+}
+
+.cart:hover {
+  cursor: pointer;
+  color: #ffff; 
+}
+.marquee-header {
+  color: white;
+  background-color: rgb(57,57,59);
+  display: flex;
+  
+}

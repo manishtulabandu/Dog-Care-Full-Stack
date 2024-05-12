@@ -1,0 +1,32 @@
+.header-container {
+    background-color: #333;
+    color: #fff;
+    padding-left: 50px;
+  }
+  
+  .marquee-container {
+    overflow: hidden;
+    white-space: nowrap;
+    margin-top: 0.5rem;
+  }
+  
+  .marquee-text {
+    display: inline-block;
+    animation: marquee 10s linear infinite; /* Adjust animation duration as needed */
+    margin-left: 34rem;
+
+  }
+  
+  .contact-details {
+    margin-top: 0.5rem;
+  }
+  
+  @keyframes marquee {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+  
